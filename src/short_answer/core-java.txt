@@ -37,149 +37,158 @@ What is difference between path and classpath variables?
 Answer:Path is environment Variable used to refer the location of java executable files
 
 What is the difference between an Interface and Abstract class?
-Answer:
+Answer:Abstract extends and hiding the internal implementation of the features and showing only the functionalty to the users
+       Interface contains static constants and abstract methods
 
 Can you make an Object from an Interface and Abstract class? If yes or no, how would you do it?
-Answer:
+Answer:You cannot create an object of abstract class or interface since they are incomplete class, What you can do is to implement a subclass of abstract class which, of course, must not be abstract. For interface, you must create a class which implement the interface and implement bodies of interface methods.
+
 
 What is Access Modifier?
-Answer:so that compiler can call it without the creation of an object or before the creation of an object of the class
-
-What is OOP? Define each OOP concept.
 Answer:
+What is OOP? Define each OOP concept.
+Answer:Abstraction using simple things to represent complexity,Encapsulation:the practice of keeping fields within a class private,Inheritance:A special features of object oriented Programming in java,Polymorphism allows programmers to use the same word in java
+
 
 What is Java Package and which package is imported by default?
-Answer:
+Answer::Access Modifiers Access modifiers in Java allow us to set the scope or accessibility or visibility of a data member be it a field, constructor, class, or method.
+
 
 What is an API? List some API's that you have used so far.
-Answer:Obcet class is the superclass of every other class
+Answer:an API is an interface that helps software programs connect and communicate with one another,
+       APIs we use:Weather Snippets,Loggin Using XYZ,Twitter bots,Travel booking...etc
+
 
 
 Does java support multiple inheritance? Why or why not?
-Answer:
+Answer:java does not support multiple inheritance because of ambiguity problem
 
 What is method overloading? List all of the different ways to overload.
-Answer:
+Answer:If a class has multiple methods having same name but different in parameters, it is known as Method Overloading.
+       Changing the Number of Parameters.
+       Changing Data Types of the Arguments.
+       Changing the Order of the Parameters of Methods
 
 Explain exceptions in java and how to handle them.
-Answer:
-
+Answer:The Exception Handling in Java is a mechanism using which the normal flow of the application is maintained
 What is static keyword? When and how do we use it?
-Answer:
+Answer:The main method of a class in Java is generally labeled static. Java Static keyword is used for a constant variable or a method that is the same for every class instance. Let’s deep dive into static keyword and see some examples.
 
 What is final keyword? When and how do we use it?
-Answer:
+Answer: the final keyword is used in several contexts to define an entity that can  be used with class method and variable. used to create a block of code that follows a try block.
 
 Explain the difference between final, finally and finalize?
-Answer:
+Answer:final is an access modifier, finally is the block in Exception Handling and finalize is the method of object class.
 
 What is a constructor?
-Answer:
+Answer:bloc of code similar to the method
 
 Can we have multiple constructors in a class?
-Answer:
+Answer: Yes
 
 If we don't have a constructor declared, what is called during the object creation?
-Answer:
+Answer:It expects no parameters from user and has an empty body. Types of Constructor
 
 What is "this" keyword in Java? When would we use it?
-Answer:
+Answer:its a reference variable we used if you want to access any member function of the current object
 
 What is "super" keyword in Java? What are some scenarios we would use it?
-Answer:
+Answer:overriding scenario, we use super at a place where the method name or the variable name are same for both superclass and subclass, using super will let the JVM know that you are actually talking about the Superclass.
 
 What does JVM stand for?
-Answer:
+Answer:JAVA vertuel machine
 
 Is JVM platform independent?
-Answer:
+Answer:No
 
 What version of Java are you using?
-Answer:
+Answer:18.0.2
 
 What does JAR stand for?
-Answer:
+Answer:JAVA archive
 
 What is the difference between JDK and JVM?
-Answer:
+Answer:The full form of JDK is Java Development Kit, while the full form of JRE is Java Runtime Environment, while the full form of JVM is Java Virtual Machine. JDK is platform dependent, JRE is also platform dependent, but JVM is platform independent.
 
 What is the difference between JVM and JRE?
-Answer:
+Answer:The main difference between JVM and JRE is that JVM includes or can access any of the major Java libraries, whereas, JRE package, on the other hand, cannot include or access any of the major Java libraries.
 
 Explain the difference between compile-time and run-time?
-Answer:
+Answer:Compile-time and Runtime are the two programming terms used in the software development. Compile-time is the time at which the source code is converted into an executable code while the run time is the time at which the executable code is started running. Both the compile-time and runtime refer to different types of error.
 
 What is heap?
-Answer:
+Answer:Heap is one of efficient implementation of abstract of data structure called a priority queue
 
 How does Java manage its memory?
-Answer:
+Answer:In Java, memory management is the process of allocation and de-allocation of objects, called Memory management. Java does memory management automatically. Java uses an automatic memory management system called a garbage collector.
 
 What is the difference between String, StringBuffer and StringBuilder?
-Answer:
+Answer:The key difference between String, StringBuffer and StringBuilder in Java is that String is a class to create an object of type String that is a sequence of characters, StringBuffer is a class that is used to modify Strings that provides thread safety, and StringBuilder is a class that is used to modify Strings that do not provide thread safety.
 
 What is Singleton class?
-Answer:
+Answer:Singleton class means single instance, That means in coding language a class which object create once, Only one instance exist in whole project and globally accessible
 
 What is Serialization and Deserialization?
-Answer:
+Answer:Serialization is the process of converting the state of an object into a form (string, byte array, or stream) that can be persisted or transported. Deserialization is the process of converting the serialized stream of data into the original object state
 
 Explain the difference between While and Do..While loops?
-Answer:
+Answer:the main difference between while loop and do-while loop is that while loop is a condition that appears at the start of the loop whereas Do-while is a condition that appears at the end of the loop. While loop and do-while loop are used in iteration statements.
 
 What is Enum?
-Answer:
+Answer: is a data type that consists of predefined values. A constant or variable defined as an enum can store one of the values listed in the enum declaration.
 
 What is Iterator?
-Answer:
+Answer: iterator is an object that enables a programmer to traverse a container, particularly lists.
 
 Which one will take more memory: an int or Integer? Why?
-Answer:
+Answer:An Integer object will take more memory an Integer is the an object and it store meta data overhead about the object and int is primitive type so its takes less space.
+
 
 Why are Strings considered to be immutable in Java?
-Answer:
+Answer:String is Immutable in Java because String objects are cached in String pool
 
 What is constructor chaining in Java?
 Answer:
+Constructor chaining is for code maintenance, basically the idea is that you only write one piece of code once, and there is no risk of overlooking something when editing your methods and the two accidentally becoming different.
 
 The difference between Serial and Parallel Garbage Collector?
-Answer:
+Answer:the difference is that the parallel collector has multiple threads that are used to speed up garbage collection
 
 What does JIT stands for?
-Answer:
+Answer:Just in time
 
 Explain the process of Java garbage collection?
-Answer:
+Answer:Java garbage collection is an automatic process the programmer does not need to explicity mark object to be deleted
 
 Can you guarantee the garbage collection process?
-Answer:
+Answer:No guaranty
 
 What is the difference between stack and heap in Java?
-Answer:
+Answer:The main difference between heap and stack is that stack memory is used to store local variables and function calls while heap memory is used to store objects in Java.
 
 What is reflection in Java and why is it useful?
-Answer:
+Answer:It allows an executing Java program to examine or "introspect" upon itself, and manipulate internal properties of the program.
 
 What is multithreading in Java?
-Answer:
+Answer:Multithreading in Java is a process of executing multiple threads simultaneously
 
 What is synchronization in Java?
-Answer:
+Answer:Synchronization in Java is essential for reliable communication between threads
 
 What is a Framework?
-Answer:
+Answer:A framework, or software framework, is a platform for developing software applications.
 
 What are the testing Frameworks available in Java?
-Answer:
+Answer:JUnit,Selenium,JBehave,mockito
 
 What are jUnit and testNG?
-Answer:
+Answer:JUnit is one of the more well-known unit testing frameworks in the Java ecosystem
 
 What are the dependencies for this project?
-Answer:
+Answer:When creating a project schedule, it is crucial to identify and account for dependencies between tasks
 
 What is dependency injection in Java?
-Answer:
+Answer:The Dependency Injection Principle is nothing but being able to pass (inject) the dependencies when required instead of initializing the dependencies inside of the recipient class.
 
 Explain what static binding and dynamic binding is?
-Answer:
+Answer:Static binding happens when all information needed to call a function is available at the compile-time. Dynamic binding happens when the compiler cannot determine all information needed for a function call at compile-time.
