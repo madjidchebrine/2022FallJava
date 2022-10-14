@@ -1,70 +1,77 @@
 ***ANSWER ALL OF THE QUESTIONS BELOW***
 
 Why do we need data structure?
-Answer:
+Answer:Data Structures are necessary for designing efficient algorithms.
 
-What are the various operations that can be performed on different data structures?
-Answer:
+What are the various operations that can be performed on different data structures?Traversing.
+
+Answer:Searching,Inserting,Deleting.Sorting,Merging
 
 When would we use data structures in the real world?
-Answer:
+Answer:To implement printer spooler so that jobs can be printed in the order of their arrival
 
 What is an Array?
-Answer:
+Answer:An array is a container object that holds a fixed number of values of a single type
 
 What is the difference between Array and ArrayList?
-Answer:
+Answer:Array is a fixed length data structure whereas ArrayList is a variable length Collection class.
 
 What is a LinkedList?
-Answer:
+Answer: is an ordered collection that contains many objects of the same type.
 
 How is an Array different from LinkedList?
-Answer:
+Answer:An array is a collection of elements of a similar data type. A linked list is a collection of objects known as a node where node consists of two parts
 
 What is a Queue?
-Answer:
+Answer:Java Queue represents an ordered list of elements.
 
 What is a Stack (referring to data structures)?
-Answer:
+Answer:Stack is a linear data structure which follows a particular order in which the operations are performed
 
 What is FIFO and LIFO?
-Answer:
+Answer:It is a method for handling data structures where the first element is processed first and the newest element is processed last.
 
 Explain Big O Notation?
-Answer:
+Answer:Big O Notation in Data Structure is used to express algorithmic complexity using algebraic terms. It describes the upper bound of an algorithm's runtime and calculates the time and amount of memory needed to execute the algorithm for an input value
 
 What is the best case to search an element from an array?
-Answer:
+Answer:The best-case performance for the Linear Search algorithm is when the search item appears at the beginning of the list and is O(1)
 
 What is the worst case to search an element from an array?
-Answer:
+Answer:The worst case complexity is O(n/2) (equivalent to O(n)) when element is in the middle or not present in the array.
 
 Describe what a tree data structure is?
-Answer:
+Answer:A tree is a hierarchical data structure defined as a collection of nodes. Nodes represent value and nodes are connected by edges.
 
 Describe what a graph data structure is?
-Answer:
+Answer:A graph is a non-linear kind of data structure made up of nodes or vertices and edges
 
 What is the difference between the HashTable and HashMap?
-Answer:
+Answer:differences between HashMap and Hashtable is that HashMap is non-synchronized whereas Hashtable is synchronized
 
 How do HashMaps work in Java? How do they store values, and when are they useful?
-Answer:
+Answer:HashMap uses multiple buckets and each bucket points to a Singly Linked List where the entries (nodes) are stored. Once the bucket is identified by the hash function using hashcode, then hashCode is used to check if there is already a key with the same hashCode or not in the bucket
 
 What is ArrayIndexOutOfBoundsException in java? When does it occur?
-Answer:
+Answer:The ArrayIndexOutOfBoundsException is one of the most common errors in Java. It occurs when a program attempts to access an invalid index in an array i.e. an index that is less than 0, or equal to or greater than the length of the array
 
 What are the different ways of copying an array into another array?
-Answer:
+Answer:Iterating each element of the given original array and copy one element at a time.
+       Using clone() method.
+       Using arraycopy() method.
+       Using copyOf() method of Arrays class.
+       Using copyOfRange() method of Arrays class.
 
 What is DFS and BFS?
-Answer:
+Answer: BFS is a traversal approach in which we first walk through all nodes on the same level before moving on to the next levelDFS is also a traversal approach in which the traverse begins at the root node and proceeds through the nodes as far as possible until we reach the node with no unvisited nearby nodes.
 
 What is Recursion?
-Answer:
+Answer:Recursion is the technique of making a function call itself
 
 What are linear and non-linear data Structures?
-Answer:
+Answer:Non-linear data structures are not easy to implement in comparison to linear data structure. It utilizes computer memory efficiently in comparison to a linear data structure
 
 Outline different sorting algorithms and their time complexities:
-
+ Insertion sort - 0(n2)
+ Heap sort  -  o(nlog(n))
+ Quick sort  - 0(n2)
